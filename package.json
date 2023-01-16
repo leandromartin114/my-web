@@ -1,17 +1,52 @@
 {
-  "name": "eslint-test",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@next/font": "13.1.1",
-    "next": "13.1.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  }
+	"name": "my-web",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@next/font": "13.1.1",
+		"next": "13.1.1",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.13",
+		"eslint": "^8.31.0",
+		"eslint-config-prettier": "^8.6.0",
+		"eslint-config-standard": "17.0.0",
+		"eslint-config-standard-jsx": "11.0.0",
+		"eslint-config-standard-react": "13.0.0",
+		"eslint-plugin-import": "2.27.4",
+		"eslint-plugin-n": "^15.6.1",
+		"eslint-plugin-node": "11.1.0",
+		"eslint-plugin-promise": "6.1.1",
+		"eslint-plugin-react": "7.32.0",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"postcss": "^8.4.21",
+		"tailwindcss": "^3.2.4"
+	},
+	"eslintConfig": {
+		"parserOptions": {
+			"ecmaVersion": "latest",
+			"sourceType": "module",
+			"ecmaFeatures": {
+				"jsx": true
+			}
+		},
+		"extends": [
+			"standard",
+			"standard-jsx",
+			"standard-react",
+			"prettier"
+		],
+		"rules": {
+			"react/react-in-jsx-scope": "off",
+			"react/prop-types": "off"
+		}
+	}
 }
