@@ -5,24 +5,16 @@ export const MenuFooter = () => {
 		<div className='grid justify-items-start items-center py-2 px-4'>
 			<ul className='grid gap-1'>
 				<li>
-					<a>
-						<LightAnchor>About Me</LightAnchor>
-					</a>
+					<LightAnchor>About Me</LightAnchor>
 				</li>
 				<li>
-					<a>
-						<LightAnchor>Tech Stack</LightAnchor>
-					</a>
+					<LightAnchor>Tech Stack</LightAnchor>
 				</li>
 				<li>
-					<a>
-						<LightAnchor>My Projects</LightAnchor>
-					</a>
+					<LightAnchor>My Projects</LightAnchor>
 				</li>
 				<li>
-					<a>
-						<LightAnchor>Contact</LightAnchor>
-					</a>
+					<LightAnchor>Contact</LightAnchor>
 				</li>
 			</ul>
 		</div>

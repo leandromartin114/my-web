@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import { getAboutMe } from '../lib/api'
+import { getAboutMe, getMyProjects } from '../lib/api'
 import { Welcome } from '../components/welcome'
 
-export default function Home({ data }) {
+export default function Home({ data, projects }) {
 	return (
 		<>
 			<Head>
@@ -18,5 +18,6 @@ export default function Home({ data }) {
 
 export async function getStaticProps() {
 	const data = await getAboutMe()
-	return { props: { data } }
+	const projects = await getMyProjects()
+	return { props: { data, projects } }
 }

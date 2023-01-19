@@ -1,4 +1,4 @@
-import { SocialMedia } from '../social-media'
+import { SocialMedia } from '../social-footer'
 import { MenuFooter } from '../menu-footer'
 import { LightBody } from '../../ui/typography'
 
