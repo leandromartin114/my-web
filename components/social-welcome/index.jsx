@@ -5,7 +5,11 @@ export const SocialWelcome = () => {
 		<div>
 			<ul className='flex gap-2'>
 				<li>
-					<a>
+					<a
+						href='https://github.com/leandromartin114'
+						target='_blank'
+						rel='noreferrer'
+					>
 						<GithubBlack />
 					</a>
 				</li>
@@ -15,7 +19,11 @@ export const SocialWelcome = () => {
 					</a>
 				</li>
 				<li>
-					<a>
+					<a
+						href='https://www.linkedin.com/in/leandro-martin-roldan/'
+						target='_blank'
+						rel='noreferrer'
+					>
 						<LinkedinBlack />
 					</a>
 				</li>

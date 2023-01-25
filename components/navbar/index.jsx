@@ -3,7 +3,7 @@ import { Anchor } from '../../ui/anchor'
 export const Navbar = () => {
 	return (
 		<div className='p-2'>
-			<ul className='flex gap-5 items-center justify-center'>
+			<ul className='flex gap-6 lg:gap-9 items-center justify-center'>
 				<li>
 					<Anchor>About Me</Anchor>
 				</li>

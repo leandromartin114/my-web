@@ -11,6 +11,10 @@ module.exports = {
 				kanit: ['Kanit', 'sans-serif'],
 				nunito: ['Nunito', 'sans-serif'],
 			},
+			backgroundImage: {
+				icons:
+					"url('https://res.cloudinary.com/deooec1tp/image/upload/v1674602588/My%20web/Capa_5_60_transparencia_rtiyoj.png')",
+			},
 			colors: {
 				'jelly-bean': {
 					DEFAULT: '#256D85',

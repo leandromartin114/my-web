@@ -1,12 +1,13 @@
-import { Body, Small } from '../typography'
+import { LightBody, LightSmall } from '../typography'
+
 export const Card = ({ imgURL, title, description, url }) => {
 	return (
-		<div>
+		<div className='grid items-center justify-items-center'>
 			<img src={imgURL} alt='img' />
-			<div>
-				<Body>{title}</Body>
-				<Small>{description}</Small>
-				<Small>{url}</Small>
+			<div className='grid gap-4'>
+				<LightBody>{title}</LightBody>
+				<LightSmall>{description}</LightSmall>
+				<LightSmall>{url}</LightSmall>
 			</div>
 		</div>
 	)

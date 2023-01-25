@@ -1,6 +1,10 @@
 import Head from 'next/head'
 import { getAboutMe, getMyProjects } from '../lib/api'
+import { Layout } from '../components/layout'
 import { Welcome } from '../components/welcome'
+import { AboutMe } from '../components/about-me'
+import { TechStack } from '../components/tech-stack'
+import { Projects } from '../components/projects'
 
 export default function Home({ data, projects }) {
 	return (
@@ -11,7 +15,18 @@ export default function Home({ data, projects }) {
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<Welcome imgURL={data.img} title={data.title} />
+			<Layout>
+				<Welcome
+					imgURL={data.img}
+					title={data.title}
+					description={data.description}
+				/>
+				<div className='bg-icons bg-auto'>
+					<AboutMe description={data.description} />
+					<TechStack />
+					<Projects projects={projects} />
+				</div>
+			</Layout>
 		</>
 	)
 }
