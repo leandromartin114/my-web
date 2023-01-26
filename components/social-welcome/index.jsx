@@ -1,8 +1,16 @@
+import { useState } from 'react'
 import { GithubBlack, GmailBlack, LinkedinBlack } from '../../ui/icons'
 
+const style =
+	'text-base md:text-lg font-semibold text-jelly-bean-800 bg-white rounded-md p-2 absolute -bottom-12 border-2 rounded'
+
 export const SocialWelcome = () => {
+	const [active, setActive] = useState(false)
+	const handleClick = () => {
+		setActive(!active)
+	}
 	return (
-		<div>
+		<div className='grid justify-items-center relative'>
 			<ul className='flex gap-2'>
 				<li>
 					<a
@@ -15,7 +23,7 @@ export const SocialWelcome = () => {
 				</li>
 				<li>
 					<a>
-						<GmailBlack />
+						<GmailBlack onClick={handleClick} />
 					</a>
 				</li>
 				<li>
@@ -28,6 +36,9 @@ export const SocialWelcome = () => {
 					</a>
 				</li>
 			</ul>
+			<span className={active ? style : 'hidden'}>
+				leandrom.roldan@gmail.com
+			</span>
 		</div>
 	)
 }

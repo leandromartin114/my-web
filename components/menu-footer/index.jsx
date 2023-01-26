@@ -1,20 +1,26 @@
 import { LightAnchor } from '../../ui/anchor'
+import { HomeIcon } from '../../ui/icons'
 
 export const MenuFooter = () => {
 	return (
 		<div className='grid justify-items-start items-center py-2 px-4'>
 			<ul className='grid gap-1'>
 				<li>
-					<LightAnchor>About Me</LightAnchor>
+					<a href='/#welcome'>
+						<HomeIcon />
+					</a>
 				</li>
 				<li>
-					<LightAnchor>Tech Stack</LightAnchor>
+					<LightAnchor link='/#about'>About Me</LightAnchor>
 				</li>
 				<li>
-					<LightAnchor>My Projects</LightAnchor>
+					<LightAnchor link='/#stack'>Tech Stack</LightAnchor>
 				</li>
 				<li>
-					<LightAnchor>Contact</LightAnchor>
+					<LightAnchor link='/#projects'>My Projects</LightAnchor>
+				</li>
+				<li>
+					<LightAnchor link='/#contact'>Contact</LightAnchor>
 				</li>
 			</ul>
 		</div>

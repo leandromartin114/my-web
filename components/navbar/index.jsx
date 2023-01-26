@@ -2,19 +2,19 @@ import { Anchor } from '../../ui/anchor'
 
 export const Navbar = () => {
 	return (
-		<div className='p-2'>
-			<ul className='flex gap-6 lg:gap-9 items-center justify-center'>
+		<div>
+			<ul className='flex gap-6 lg:gap-9 items-center justify-center content-center'>
 				<li>
-					<Anchor>About Me</Anchor>
+					<Anchor link='/#about'>About Me</Anchor>
 				</li>
 				<li>
-					<Anchor>Tech Stack</Anchor>
+					<Anchor link='/#stack'>Tech Stack</Anchor>
 				</li>
 				<li>
-					<Anchor>My Projects</Anchor>
+					<Anchor link='/#projects'>My Projects</Anchor>
 				</li>
 				<li>
-					<Anchor>Contact</Anchor>
+					<Anchor link='/#contact'>Contact</Anchor>
 				</li>
 			</ul>
 		</div>

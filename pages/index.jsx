@@ -22,8 +22,10 @@ export default function Home({ data, projects }) {
 					description={data.description}
 				/>
 				<div className='bg-icons bg-auto'>
-					<AboutMe description={data.description} />
-					<TechStack />
+					<div className='lg:flex lg:gap-6 '>
+						<AboutMe />
+						<TechStack />
+					</div>
 					<Projects projects={projects} />
 				</div>
 			</Layout>
