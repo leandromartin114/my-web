@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { GithubBlack, GmailBlack, LinkedinBlack } from '../../ui/icons'
 
 const style =
-	'text-base md:text-lg font-semibold text-jelly-bean-800 bg-white rounded-md p-2 absolute -bottom-12 border-2 rounded'
+	'text-base md:text-lg font-semibold text-tiber-700 bg-white rounded-md p-2 absolute -bottom-12 border-2 rounded'
 
 export const SocialWelcome = () => {
 	const [active, setActive] = useState(false)

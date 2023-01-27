@@ -7,28 +7,33 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			animation: {
+				text: 'text 5s ease infinite',
+			},
+			keyframes: {
+				text: {
+					'0%, 100%': {
+						'background-size': '200% 200%',
+						'background-position': 'left center',
+					},
+					'50%': {
+						'background-size': '200% 200%',
+						'background-position': 'right center',
+					},
+				},
+			},
 			fontFamily: {
 				kanit: ['Kanit', 'sans-serif'],
 				nunito: ['Nunito', 'sans-serif'],
+				righteous: ['Righteous', 'cursive'],
+				montserrat: ['Montserrat Alternates', 'sans-serif'],
 			},
 			backgroundImage: {
 				icons:
 					"url('https://res.cloudinary.com/deooec1tp/image/upload/v1674602588/My%20web/Capa_5_60_transparencia_rtiyoj.png')",
+				lean: "url('https://res.cloudinary.com/deooec1tp/image/upload/v1674844701/My%20web/lean_meyo1h.png')",
 			},
 			colors: {
-				'jelly-bean': {
-					DEFAULT: '#256D85',
-					50: '#85C7DD',
-					100: '#75C0D9',
-					200: '#55B1D0',
-					300: '#37A1C5',
-					400: '#2E87A5',
-					500: '#256D85',
-					600: '#194959',
-					700: '#0D252D',
-					800: '#000101',
-					900: '#000000',
-				},
 				tiber: {
 					DEFAULT: '#06283D',
 					50: '#1696E4',

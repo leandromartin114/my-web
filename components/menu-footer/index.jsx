@@ -6,21 +6,21 @@ export const MenuFooter = () => {
 		<div className='grid justify-items-start items-center py-2 px-4'>
 			<ul className='grid gap-1'>
 				<li>
-					<a href='/#welcome'>
+					<a href='#top'>
 						<HomeIcon />
 					</a>
 				</li>
 				<li>
-					<LightAnchor link='/#about'>About Me</LightAnchor>
+					<LightAnchor link='#about'>about me</LightAnchor>
 				</li>
 				<li>
-					<LightAnchor link='/#stack'>Tech Stack</LightAnchor>
+					<LightAnchor link='#stack'>tech stack</LightAnchor>
 				</li>
 				<li>
-					<LightAnchor link='/#projects'>My Projects</LightAnchor>
+					<LightAnchor link='#projects'>my projects</LightAnchor>
 				</li>
 				<li>
-					<LightAnchor link='/#contact'>Contact</LightAnchor>
+					<LightAnchor link='#contact'>contact</LightAnchor>
 				</li>
 			</ul>
 		</div>
