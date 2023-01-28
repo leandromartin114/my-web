@@ -16,11 +16,7 @@ export default function Home({ data, projects }) {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<Layout>
-				<Welcome
-					imgURL={data.img}
-					title={data.title}
-					description={data.description}
-				/>
+				<Welcome title={data.title} description={data.description} />
 				<div className='bg-icons bg-auto'>
 					<div className='lg:flex lg:gap-6 '>
 						<AboutMe />

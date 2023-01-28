@@ -1,6 +1,6 @@
 import { SocialMedia } from '../social-footer'
 import { MenuFooter } from '../menu-footer'
-import { LightBody } from '../../ui/typography'
+import { LightSmall } from '../../ui/typography'
 
 export const Footer = () => {
 	return (
@@ -10,9 +10,9 @@ export const Footer = () => {
 				<SocialMedia />
 			</div>
 			<div className='w-full py-2 px-4 flex justify-start md:justify-center'>
-				<LightBody>
+				<LightSmall>
 					Copyright © 2023 Leandro Roldán. All rights reserved.
-				</LightBody>
+				</LightSmall>
 			</div>
 		</footer>
 	)
