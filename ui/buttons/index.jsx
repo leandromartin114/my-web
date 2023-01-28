@@ -5,3 +5,16 @@ export const Button = ({ children }) => {
 		</button>
 	)
 }
+
+export const DownloadButton = ({ children, file }) => {
+	return (
+		<a
+			href={file}
+			target='_blank'
+			rel='noopener noreferrer'
+			className='px-4 py-1 text-base lg:text-lg font-bold text-white bg-dodger-blue-400 rounded-md hover:bg-dodger-blue-700 hover:shadow-2xl hover:shadow-dodger-blue-800 cursor-pointer'
+		>
+			{children}
+		</a>
+	)
+}
