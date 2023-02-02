@@ -5,6 +5,7 @@ import { Welcome } from '../components/welcome'
 import { AboutMe } from '../components/about-me'
 import { TechStack } from '../components/tech-stack'
 import { Projects } from '../components/projects'
+import { Endpaper } from '../ui/endpaper'
 
 export default function Home({ data, projects }) {
 	return (
@@ -16,15 +17,18 @@ export default function Home({ data, projects }) {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<Layout>
-				<Welcome
-					title={data.title}
-					description={data.description}
-					cv={data.cv}
-				/>
-				<div className='bg-icons bg-auto'>
-					<AboutMe imgURL={data.img} />
+				<div>
+					<Welcome
+						title={data.title}
+						description={data.description}
+						cv={data.cv}
+					/>
+				</div>
+				<div className='pb-11 xl:pb-24 bg-icons bg-auto grid gap-11 xl:gap-24 justify-items-center'>
+					<Endpaper />
 					<TechStack />
 					<Projects projects={projects} />
+					<AboutMe imgURL={data.img} />
 				</div>
 			</Layout>
 		</>

@@ -5,7 +5,7 @@ export const Projects = ({ projects }) => {
 	return (
 		<section
 			id='projects'
-			className=' w-full py-5 px-1 grid justify-items-center '
+			className='w-full px-4 grid gap-7 items-center justify-items-center'
 		>
 			<Large>My Projects</Large>
 			<div className='grid gap-4'>

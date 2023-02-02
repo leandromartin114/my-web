@@ -5,10 +5,10 @@ export const AboutMe = ({ imgURL }) => {
 	return (
 		<section
 			id='about'
-			className=' w-full py-8 px-4 grid gap-7 items-center justify-items-center'
+			className='w-full px-4 grid gap-7 items-center justify-items-center'
 		>
 			<Large>About Me</Large>
-			<div className='max-w-4xl xl:max-w-6xl'>
+			<div className='max-w-lg xl:max-w-4xl'>
 				<Image
 					className='image'
 					width={360}

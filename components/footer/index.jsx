@@ -4,7 +4,7 @@ import { LightSmall } from '../../ui/typography'
 
 export const Footer = () => {
 	return (
-		<footer className='py-4 bg-tiber-600 w-full flex flex-col items-start gap-3 md:gap-7'>
+		<footer className='py-4 bg-black w-full flex flex-col items-start gap-3 md:gap-7'>
 			<div className='w-full md:flex md:justify-between md:items-start gap-3'>
 				<MenuFooter />
 				<SocialMedia />

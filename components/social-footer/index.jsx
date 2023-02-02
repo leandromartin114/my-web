@@ -3,9 +3,9 @@ import { GithubIcon, GmailIcon, LinkedinIcon } from '../../ui/icons'
 import { LightBody } from '../../ui/typography'
 
 const style =
-	'md:hidden text-base md:text-lg font-semibold text-tiber-700 bg-white rounded-md p-2 border-2 rounded -right-60 -top-2  absolute'
+	'md:hidden text-base md:text-lg font-semibold text-black bg-white rounded-md p-2 border-2 rounded -right-60 -top-2  absolute'
 const style2 =
-	'md:inline text-base md:text-lg font-semibold text-tiber-700 bg-white rounded-md p-2 border-2 rounded -left-64 absolute'
+	'md:inline text-base md:text-lg font-semibold text-black bg-white rounded-md p-2 border-2 rounded -left-64 absolute'
 
 export const SocialMedia = () => {
 	const [active, setActive] = useState(false)
