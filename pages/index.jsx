@@ -24,12 +24,13 @@ export default function Home({ data, projects }) {
 						cv={data.cv}
 					/>
 				</div>
-				<div className='pb-11 xl:pb-24 bg-icons bg-auto grid gap-11 xl:gap-24 justify-items-center'>
+				<div className='bg-icons bg-auto grid justify-items-center items-center'>
 					<Endpaper />
 					<TechStack />
 					<Projects projects={projects} />
-					<AboutMe imgURL={data.img} />
+					<Endpaper />
 				</div>
+				<AboutMe imgURL={data.img} />
 			</Layout>
 		</>
 	)

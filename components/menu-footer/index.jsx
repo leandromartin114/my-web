@@ -11,13 +11,13 @@ export const MenuFooter = () => {
 					</a>
 				</li>
 				<li>
-					<LightAnchor link='#about'>about me</LightAnchor>
-				</li>
-				<li>
 					<LightAnchor link='#stack'>tech stack</LightAnchor>
 				</li>
 				<li>
 					<LightAnchor link='#projects'>my projects</LightAnchor>
+				</li>
+				<li>
+					<LightAnchor link='#about'>about me</LightAnchor>
 				</li>
 				<li>
 					<LightAnchor link='#contact'>contact</LightAnchor>

@@ -28,7 +28,7 @@ export const SubTitle = ({ children }) => {
 
 export const Large = ({ children }) => {
 	return (
-		<h3 className='font-righteous text-2xl md:text-3xl xl:text-5xl 2xl:text-7xl font-semibold text-cyan-300 '>
+		<h3 className='text-center font-righteous text-3xl md:text-4xl xl:text-6xl 2xl:text-8xl font-semibold text-cyan-300 '>
 			{children}
 		</h3>
 	)
@@ -52,7 +52,7 @@ export const LightBody = ({ children }) => {
 
 export const JustifyBody = ({ children }) => {
 	return (
-		<p className='text-center lg:text-justify text-base md:text-lg xl:text-2xl font-semibold xl:font-bold text-white'>
+		<p className='text-center lg:text-justify text-base md:text-lg xl:text-xl 2xl:text-3xl font-semibold xl:font-bold text-black'>
 			{children}
 		</p>
 	)

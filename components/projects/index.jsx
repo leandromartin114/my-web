@@ -16,7 +16,10 @@ export const Projects = ({ projects }) => {
 									key={p.title}
 									imgURL={p.img}
 									title={p.title}
+									description={p.description}
 									url={p.url}
+									github={p.github}
+									tech={p.tech.stack}
 								/>
 							)
 					  })
