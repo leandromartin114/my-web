@@ -39,3 +39,18 @@ export const LightAnchor = ({ children, link }) => {
 		</a>
 	)
 }
+
+export const CardAnchor = ({ children, link }) => {
+	return (
+		<a
+			href={link}
+			target='_blank'
+			rel='noreferrer'
+			className='cursor-pointer w-full'
+		>
+			<p className='w-full bg-white rounded-2xl border-solid border-2 border-orange-700 px-2 py-1 text-xs lg:text-base 2xl:text-lg font-bold text-orange-700 text-center flex justify-center items-center'>
+				{children}
+			</p>
+		</a>
+	)
+}

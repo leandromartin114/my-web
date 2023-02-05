@@ -56,11 +56,3 @@ export const DesktopText = () => {
 		</div>
 	)
 }
-
-export const CardTechsButtons = ({ children }) => {
-	return (
-		<div className='bg-cyan-900 rounded-2xl shadow-md shadow-gray-400 px-3 py-1 text-xs lg:text-sm font-semibold text-white flex justify-center items-center cursor-text'>
-			{children}
-		</div>
-	)
-}

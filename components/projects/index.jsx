@@ -1,29 +1,18 @@
 import { Large } from '../../ui/typography'
-import { Card } from '../../ui/card'
+import { Carousel, CarouselXL } from '../carousel'
 
 export const Projects = ({ projects }) => {
 	return (
 		<section
 			id='projects'
-			className='w-full px-4 grid gap-7 items-center justify-items-center'
+			className='w-full px-2 py-20 xl:py-28 grid gap-16 2xl:gap-28 items-center justify-items-center'
 		>
-			<Large>My Projects</Large>
-			<div className='grid gap-4'>
-				{projects
-					? projects.map((p) => {
-							return (
-								<Card
-									key={p.title}
-									imgURL={p.img}
-									title={p.title}
-									description={p.description}
-									url={p.url}
-									github={p.github}
-									tech={p.tech.stack}
-								/>
-							)
-					  })
-					: 'Ups...'}
+			<Large color='text-orange-500'>My Projects</Large>
+			<div className='2xl:hidden'>
+				<Carousel items={projects} />
+			</div>
+			<div className='hidden 2xl:block'>
+				<CarouselXL items={projects} />
 			</div>
 		</section>
 	)

@@ -26,9 +26,14 @@ export const SubTitle = ({ children }) => {
 	)
 }
 
-export const Large = ({ children }) => {
+export const Large = ({ children, color }) => {
 	return (
-		<h3 className='text-center font-righteous text-3xl md:text-4xl xl:text-6xl 2xl:text-8xl font-semibold text-cyan-300 '>
+		<h3
+			className={
+				'font-righteous text-center text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-8xl font-semibold ' +
+				color
+			}
+		>
 			{children}
 		</h3>
 	)
@@ -60,12 +65,32 @@ export const JustifyBody = ({ children }) => {
 
 export const Small = ({ children }) => {
 	return (
-		<p className='text-xs lg:text-sm font-semibold text-black'>{children}</p>
+		<p className='text-xs lg:text-sm 2xl:text-base font-semibold text-black'>
+			{children}
+		</p>
 	)
 }
 
 export const LightSmall = ({ children }) => {
 	return (
-		<p className='text-xs lg:text-sm font-semibold text-white'>{children}</p>
+		<p className='text-xs lg:text-sm 2xl:text-base font-semibold text-white'>
+			{children}
+		</p>
+	)
+}
+
+export const CardTags = ({ children }) => {
+	return (
+		<div className='w-full bg-orange-700 rounded-2xl shadow-sm shadow-white px-2 py-1 text-xs lg:text-base font-bold text-white text-center flex justify-center items-center cursor-text'>
+			{children}
+		</div>
+	)
+}
+
+export const CardTitle = ({ children }) => {
+	return (
+		<h3 className='font-righteous text-center text-lg md:text-xl xl:text-3xl font-semibold text-white '>
+			{children}
+		</h3>
 	)
 }

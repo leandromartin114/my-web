@@ -241,3 +241,16 @@ a {
 		}
 	}
 }
+
+:root {
+	--swiper-navigation-color: rgb(249 115 22);
+	--swiper-pagination-bullet-inactive-color: #fff;
+	--swiper-pagination-color: rgb(249 115 22);
+	--swiper-pagination-bullet-height: 15px;
+	--swiper-pagination-bullet-width: 15px;
+}
+
+.swiper,
+swiper-container {
+	padding-top: 40px !important;
+}
