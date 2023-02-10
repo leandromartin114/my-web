@@ -1,4 +1,4 @@
-import { LightAnchor } from '../../ui/anchor'
+import { DarkAnchor } from '../../ui/anchor'
 import { HomeIcon } from '../../ui/icons'
 
 export const MenuFooter = () => {
@@ -11,16 +11,16 @@ export const MenuFooter = () => {
 					</a>
 				</li>
 				<li>
-					<LightAnchor link='#stack'>tech stack</LightAnchor>
+					<DarkAnchor link='#stack'>tech stack</DarkAnchor>
 				</li>
 				<li>
-					<LightAnchor link='#projects'>my projects</LightAnchor>
+					<DarkAnchor link='#projects'>my projects</DarkAnchor>
 				</li>
 				<li>
-					<LightAnchor link='#about'>about me</LightAnchor>
+					<DarkAnchor link='#about'>about me</DarkAnchor>
 				</li>
 				<li>
-					<LightAnchor link='#contact'>contact</LightAnchor>
+					<DarkAnchor link='#contact'>contact</DarkAnchor>
 				</li>
 			</ul>
 		</div>

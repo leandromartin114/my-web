@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { GithubIcon, GmailIcon, LinkedinIcon } from '../../ui/icons'
-import { LightBody } from '../../ui/typography'
+import { Body } from '../../ui/typography'
 
 const style =
 	'md:hidden text-base md:text-lg font-semibold text-black bg-white rounded-md p-2 border-2 rounded -right-60 -top-2  absolute'
@@ -14,7 +14,7 @@ export const SocialMedia = () => {
 	}
 	return (
 		<div className='grid gap-3 justify-items-start items-center py-2 px-4 md:justify-items-end'>
-			<LightBody>Social Media</LightBody>
+			<Body>Social Media</Body>
 			<ul className='grid gap-2'>
 				<li>
 					<a

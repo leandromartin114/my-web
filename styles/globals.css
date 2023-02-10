@@ -20,25 +20,6 @@ a {
 
 /* welcome image */
 
-@media (min-width: 640px) {
-	.lean {
-		width: 288px;
-		height: 288px;
-	}
-}
-@media (min-width: 1280px) {
-	.lean {
-		width: 384px;
-		height: 384px;
-	}
-}
-@media (min-width: 1536px) {
-	.lean {
-		width: 560px;
-		height: 560px;
-	}
-}
-
 @media only screen and (min-width: 1024px) and (max-height: 620px) {
 	.lean {
 		display: none;

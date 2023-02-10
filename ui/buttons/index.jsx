@@ -12,7 +12,7 @@ export const DownloadButton = ({ children, file }) => {
 			href={file}
 			target='_blank'
 			rel='noopener noreferrer'
-			className='px-4 py-1 text-base lg:text-lg xl:text-2xl xl:px-6 xl:py-3 font-bold text-white bg-cyan-500 rounded-lg hover:bg-cyan-700 hover:shadow-2xl hover:shadow-cyan-800 cursor-pointer'
+			className='px-4 py-1 text-base lg:text-lg xl:text-2xl xl:px-6 xl:py-3 font-bold text-white bg-orange-500 rounded-lg hover:bg-cyan-700 hover:shadow-2xl hover:shadow-cyan-800 cursor-pointer'
 		>
 			{children}
 		</a>
