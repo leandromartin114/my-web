@@ -32,23 +32,6 @@ a {
 	}
 }
 
-/* about me image */
-
-.image {
-	display: none;
-	border-radius: 100%;
-	shape-outside: circle(50%);
-	float: left;
-	padding: 16px;
-}
-@media (min-width: 1024px) {
-	.image {
-		display: block;
-		width: 380px;
-		height: 380px;
-	}
-}
-
 /* slider effects */
 
 .cube-container {

@@ -17,21 +17,21 @@ export const Carousel = ({ items }) => {
 				pagination
 				navigation
 				modules={[EffectFlip, Pagination, Navigation]}
-				className='w-[315px] md:w-[350px] lg:w-[380px]'
+				className='w-[315px] md:w-[350px] lg:w-[510px] lg:h-[910px]'
 			>
 				{items.map((item, index) => (
 					<SwiperSlide key={item.title}>
 						<div
 							key={index}
-							className='lg:h[790px] p-2 grid content-start items-center justify-items-center gap-2 bg-black border-solid border-8 border-orange-500 rounded-xl'
+							className='h-full p-2 grid content-start items-center justify-items-center gap-2 bg-black border-solid border-8 border-orange-500 rounded-xl'
 						>
 							<CardTitle>{item.title}</CardTitle>
 							<img
 								src={item.img}
 								alt={item.title}
-								className='w-[265px] md:w-[300px] lg:w-[330px] h-full border-2 border-orange-500 rounded-xl'
+								className='w-[265px] md:w-[300px] lg:w-[410px] h-full border-2 border-orange-500 rounded-xl'
 							/>
-							<div className='w-[265px] md:w-[300px] lg:w-[330px] h-full grid justify-items-center items-center gap-2'>
+							<div className='w-[265px] md:w-[300px] lg:w-[410px] h-full grid justify-items-center items-center gap-2'>
 								<div className='w-full grid grid-cols-2 gap-2 justify-items-center items-center'>
 									<CardAnchor link={item.url}>Visit</CardAnchor>
 									<CardAnchor link={item.github}>GitHub</CardAnchor>
@@ -82,15 +82,15 @@ export const CarouselXL = ({ items }) => {
 					<SwiperSlide key={item.title}>
 						<div
 							key={index}
-							className='h-[945px] p-6 grid content-start items-center justify-items-center gap-4 bg-black border-solid border-8 border-orange-500 rounded-xl'
+							className='h-[965px] p-6 grid content-start items-center justify-items-center gap-4 bg-black border-solid border-8 border-orange-500 rounded-xl'
 						>
 							<CardTitle>{item.title}</CardTitle>
 							<img
 								src={item.img}
 								alt={item.title}
-								className='w-[395px] h-[450px] border-2 border-orange-500 rounded-xl'
+								className='w-[410px] h-[450px] border-2 border-orange-500 rounded-xl'
 							/>
-							<div className='w-[395px] h-full grid justify-items-center items-center gap-3'>
+							<div className='w-[410px] h-full grid justify-items-center items-center gap-3'>
 								<div className='w-full grid grid-cols-2 gap-3 justify-items-center items-center'>
 									<CardAnchor link={item.url}>Visit</CardAnchor>
 									<CardAnchor link={item.github}>GitHub</CardAnchor>
