@@ -36,7 +36,7 @@ export const Carousel = ({ items }) => {
 									<CardAnchor link={item.url}>Visit</CardAnchor>
 									<CardAnchor link={item.github}>GitHub</CardAnchor>
 								</div>
-								<div>
+								<div className='hidden md:block'>
 									<LightSmall>{item.description}</LightSmall>
 								</div>
 								<div className='w-full h-32 grid grid-cols-2 gap-2 justify-items-center items-start content-start'>

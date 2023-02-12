@@ -8,9 +8,9 @@ export const AboutMe = ({ imgURL }) => {
 			className='px-2 py-20 xl:py-28 2xl:py-32 w-full 2xl:h-screen grid gap-7 items-center justify-items-center xl:grid-cols-2'
 		>
 			<Image
-				className='lg:w-[450px] lg:h-[450px] 2xl:w-[720px] 2xl:h-[720px] rounded-full border-solid border-cyan-500 border-4 2xl:border-8'
-				width={360}
-				height={360}
+				className='lean hidden sm:block sm:w-72 xl:w-96 2xl:w-[700px] sm:h-72 xl:h-96 2xl:h-[700px] rounded-full border-solid border-cyan-500 border-4 2xl:border-8'
+				width={224}
+				height={224}
 				src={imgURL}
 				alt='Leandro'
 			/>
@@ -35,11 +35,3 @@ export const AboutMe = ({ imgURL }) => {
 		</section>
 	)
 }
-// {
-/* <div className='text-center max-w-md md:max-w-lg xl:max-w-4xl 2xl:max-w-5xl grid gap-7'>
-				<Large color='text-cyan-300'>Education And Technologies</Large>
-				<MobileText />
-				<DesktopText />
-			</div>
-			<IconsGrid /> */
-// }

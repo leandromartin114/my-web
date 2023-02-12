@@ -5,6 +5,7 @@ import { Welcome } from '../components/welcome'
 import { AboutMe } from '../components/about-me'
 import { TechStack } from '../components/tech-stack'
 import { Projects } from '../components/projects'
+import { Contact } from '../components/contact'
 import { Endpaper } from '../ui/endpaper'
 
 export default function Home({ data, projects }) {
@@ -31,6 +32,7 @@ export default function Home({ data, projects }) {
 					<Endpaper />
 				</div>
 				<AboutMe imgURL={data.img} />
+				<Contact />
 			</Layout>
 		</>
 	)

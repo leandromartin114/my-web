@@ -1,7 +1,7 @@
 export const Title = ({ children }) => {
 	return (
 		<h1
-			className='font-righteous font-extrabold text-4xl sm:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl   
+			className='font-righteous font-extrabold text-4xl sm:text-5xl lg:text-6xl xl:text-8xl 2xl:text-9xl   
             bg-gradient-to-r bg-clip-text  text-transparent 
             from-cyan-800 via-cyan-500 to-cyan-300
             animate-text
@@ -15,7 +15,7 @@ export const Title = ({ children }) => {
 export const SubTitle = ({ children }) => {
 	return (
 		<h2
-			className='font-kanit text-2xl sm:text-4xl lg:text-5xl xl:text-7xl 2xl:text-8xl font-bold
+			className='font-kanit font-bold text-3xl sm:text-5xl lg:text-6xl xl:text-8xl 2xl:text-9xl 
 		bg-gradient-to-r bg-clip-text  text-transparent 
         from-orange-800 via-orange-500 to-orange-300
         animate-text
@@ -30,7 +30,7 @@ export const Large = ({ children, color }) => {
 	return (
 		<h3
 			className={
-				'font-righteous text-center text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-8xl font-semibold ' +
+				'font-righteous text-center text-3xl md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-9xl font-semibold ' +
 				color
 			}
 		>
@@ -65,7 +65,7 @@ export const JustifyBody = ({ children }) => {
 
 export const Small = ({ children }) => {
 	return (
-		<p className='text-xs lg:text-sm 2xl:text-base font-semibold text-black'>
+		<p className='text-xs lg:text-sm 2xl:text-lg font-semibold text-black'>
 			{children}
 		</p>
 	)
@@ -73,7 +73,7 @@ export const Small = ({ children }) => {
 
 export const LightSmall = ({ children }) => {
 	return (
-		<p className='text-xs lg:text-sm 2xl:text-base font-semibold text-white'>
+		<p className='text-xs lg:text-sm 2xl:text-lg font-semibold text-white'>
 			{children}
 		</p>
 	)

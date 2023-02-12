@@ -44,7 +44,7 @@ export const DarkAnchor = ({ children, link }) => {
 	return (
 		<a href={link} className='cursor-pointer'>
 			<p
-				className='font-montserrat inline-block text-base xl:text-lg 2xl:text-xl font-bold text-black hover:text-cyan-400
+				className='font-montserrat inline-block text-base md:text-lg xl:text-xl 2xl:text-2xl font-bold text-black hover:text-cyan-400
                         after:block
                         after:border-b-2
                         after:border-cyan-400

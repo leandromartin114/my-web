@@ -4,7 +4,7 @@ import { HomeIcon } from '../../ui/icons'
 export const MenuFooter = () => {
 	return (
 		<div className='grid justify-items-start items-center py-2 px-4'>
-			<ul className='grid gap-1'>
+			<ul className='grid gap-1 md:gap-3 xl:gap-6'>
 				<li>
 					<a href='#top'>
 						<HomeIcon />

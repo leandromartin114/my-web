@@ -30,4 +30,3 @@ export const Welcome = ({ title, description, cv }) => {
 		</section>
 	)
 }
-// bg-lean bg-cover md:bg-contain bg-no-repeat bg-center

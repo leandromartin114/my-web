@@ -4,10 +4,9 @@ import { Small } from '../../ui/typography'
 
 export const Footer = () => {
 	return (
-		<footer className='py-4 bg-white w-full flex flex-col items-start gap-3 md:gap-7'>
-			<div className='w-full md:flex md:justify-between md:items-start gap-3'>
+		<footer className='py-4 xl:py-7 2xl:py-11 bg-white w-full flex flex-col items-start gap-3 md:gap-7 xl:gap-11 border-t-orange-600 border-2 xl:border-4'>
+			<div className='w-full py-2 px-4 flex justify-start md:justify-center md:text-center'>
 				<MenuFooter />
-				<SocialMedia />
 			</div>
 			<div className='w-full py-2 px-4 flex justify-start md:justify-center'>
 				<Small>Copyright © 2023 Leandro Roldán. All rights reserved.</Small>
