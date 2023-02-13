@@ -203,7 +203,7 @@ export const HomeIcon = () => {
 export const GithubColor = () => {
 	return (
 		<svg
-			className='w-14 sm:w-16 md:w-20 xl:w-28 2xl:w-36 h-14 sm:h-16 md:h-20 xl:h-28 2xl:h-36 fill-orange-500 hover:fill-stone-400 cursor-pointer'
+			className='w-14 sm:w-16 md:w-20 xl:w-28 h-14 sm:h-16 md:h-20 xl:h-28 fill-orange-500 hover:fill-stone-400 cursor-pointer'
 			viewBox='0 0 32 32'
 		>
 			<path d='M16 1.375c-8.282 0-14.996 6.714-14.996 14.996 0 6.585 4.245 12.18 10.148 14.195l.106.031c.75.141 1.025-.322 1.025-.721 0-.356-.012-1.3-.019-2.549-4.171.905-5.051-2.012-5.051-2.012a3.995 3.995 0 0 0-1.653-2.184l-.016-.009c-1.358-.93.105-.911.105-.911a3.151 3.151 0 0 1 2.289 1.53l.008.015a3.2 3.2 0 0 0 4.383 1.238l-.016.008a3.194 3.194 0 0 1 .949-2.005l.001-.001c-3.33-.375-6.831-1.665-6.831-7.41l-.001-.089c0-1.521.587-2.905 1.547-3.938l-.003.004a5.236 5.236 0 0 1-.321-1.821c0-.777.166-1.516.465-2.182l-.014.034s1.256-.402 4.124 1.537c1.124-.321 2.415-.506 3.749-.506s2.625.185 3.849.53l-.1-.024c2.849-1.939 4.105-1.537 4.105-1.537.285.642.451 1.39.451 2.177 0 .642-.11 1.258-.313 1.83l.012-.038A5.786 5.786 0 0 1 25.52 15.5l-.001.091v-.005c0 5.761-3.505 7.029-6.842 7.398a3.579 3.579 0 0 1 1.011 2.787l.001-.012c0 2.007-.019 3.619-.019 4.106 0 .394.262.862 1.031.712 6.028-2.029 10.292-7.629 10.292-14.226 0-8.272-6.706-14.977-14.977-14.977h-.019.001z' />
@@ -215,7 +215,7 @@ export const GmailColor = ({ onClick }) => {
 	return (
 		<svg
 			onClick={onClick}
-			className='w-14 sm:w-16 md:w-20 xl:w-28 2xl:w-36 h-14 sm:h-16 md:h-20 xl:h-28 2xl:h-36 fill-orange-500 hover:fill-stone-400 cursor-pointer'
+			className='w-14 sm:w-16 md:w-20 xl:w-28 h-14 sm:h-16 md:h-20 xl:h-28 fill-orange-500 hover:fill-stone-400 cursor-pointer'
 			viewBox='0 0 32 32'
 		>
 			<path d='M30.996 7.824v17.382a2.044 2.044 0 0 1-2.044 2.044H24.179V15.663L16 21.799l-8.179-6.136v11.588H3.049a2.044 2.044 0 0 1-2.044-2.044V7.824A3.067 3.067 0 0 1 5.92 5.376l-.008-.006L16 12.937 26.088 5.37a3.067 3.067 0 0 1 4.907 2.454z' />
@@ -226,7 +226,7 @@ export const GmailColor = ({ onClick }) => {
 export const LinkedinColor = () => {
 	return (
 		<svg
-			className='w-14 sm:w-16 md:w-20 xl:w-28 2xl:w-36 h-14 sm:h-16 md:h-20 xl:h-28 2xl:h-36 fill-orange-500 hover:fill-stone-400 cursor-pointer'
+			className='w-14 sm:w-16 md:w-20 xl:w-28 h-14 sm:h-16 md:h-20 xl:h-28 fill-orange-500 hover:fill-stone-400 cursor-pointer'
 			viewBox='0 0 32 32'
 		>
 			<path d='M28.778 1.004H3.191a2.185 2.185 0 0 0-2.186 2.159v25.672a2.186 2.186 0 0 0 2.186 2.161h25.612c1.2 0 2.175-.963 2.194-2.159V3.165a2.195 2.195 0 0 0-2.195-2.161h-.029.001zM9.9 26.562H5.446V12.251H9.9zM7.674 10.293a2.579 2.579 0 1 1 2.579-2.58v.004a2.577 2.577 0 0 1-2.577 2.577h-.003zm18.882 16.269h-4.441v-6.959c0-1.66-.034-3.795-2.314-3.795-2.316 0-2.669 1.806-2.669 3.673v7.082h-4.441V12.252h4.266v1.951h.058a4.686 4.686 0 0 1 4.22-2.312h-.009c4.5 0 5.332 2.962 5.332 6.817v7.855z' />
@@ -237,7 +237,7 @@ export const LinkedinColor = () => {
 export const TwitterColor = () => {
 	return (
 		<svg
-			className='w-14 sm:w-16 md:w-20 xl:w-28 2xl:w-36 h-14 sm:h-16 md:h-20 xl:h-28 2xl:h-36 fill-orange-500 hover:fill-stone-400 cursor-pointer'
+			className='w-14 sm:w-16 md:w-20 xl:w-28 h-14 sm:h-16 md:h-20 xl:h-28 fill-orange-500 hover:fill-stone-400 cursor-pointer'
 			viewBox='0 0 24 24'
 		>
 			<path d='M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z' />
@@ -250,7 +250,7 @@ export const TwitterColor = () => {
 export const CssIcon = () => {
 	return (
 		<svg
-			className='w-14 md:w-16 lg:w-20 xl:w-24 2xl:w-32 h-14 md:h-16 lg:h-20 xl:h-24 2xl:h-32 hover:-translate-y-3 cursor-pointer'
+			className='w-14 md:w-16 lg:w-20 xl:w-24 h-14 md:h-16 lg:h-20 xl:h-24 cursor-pointer'
 			viewBox='0 0 32 32'
 		>
 			<g>
@@ -269,7 +269,7 @@ export const CssIcon = () => {
 export const FirebaseIcon = () => {
 	return (
 		<svg
-			className='w-14 md:w-16 lg:w-20 xl:w-24 2xl:w-32 h-14 md:h-16 lg:h-20 xl:h-24 2xl:h-32 hover:-translate-y-3 cursor-pointer'
+			className='w-14 md:w-16 lg:w-20 xl:w-24 h-14 md:h-16 lg:h-20 xl:h-24 cursor-pointer'
 			viewBox='0 0 32 32'
 		>
 			<g>
@@ -314,7 +314,7 @@ export const FirebaseIcon = () => {
 export const GitIcon = () => {
 	return (
 		<svg
-			className='w-14 md:w-16 lg:w-20 xl:w-24 2xl:w-32 h-14 md:h-16 lg:h-20 xl:h-24 2xl:h-32 hover:-translate-y-3 cursor-pointer'
+			className='w-14 md:w-16 lg:w-20 xl:w-24 h-14 md:h-16 lg:h-20 xl:h-24 cursor-pointer'
 			viewBox='0 0 32 32'
 		>
 			<g>
@@ -335,7 +335,7 @@ export const GitIcon = () => {
 export const HtmlIcon = () => {
 	return (
 		<svg
-			className='w-14 md:w-16 lg:w-20 xl:w-24 2xl:w-32 h-14 md:h-16 lg:h-20 xl:h-24 2xl:h-32 hover:-translate-y-3 cursor-pointer'
+			className='w-14 md:w-16 lg:w-20 xl:w-24 h-14 md:h-16 lg:h-20 xl:h-24 cursor-pointer'
 			viewBox='0 0 32 32'
 		>
 			<g>
@@ -354,7 +354,7 @@ export const HtmlIcon = () => {
 export const JSIcon = () => {
 	return (
 		<svg
-			className='w-14 md:w-16 lg:w-20 xl:w-24 2xl:w-32 h-14 md:h-16 lg:h-20 xl:h-24 2xl:h-32 hover:-translate-y-3 cursor-pointer'
+			className='w-14 md:w-16 lg:w-20 xl:w-24 h-14 md:h-16 lg:h-20 xl:h-24 cursor-pointer'
 			preserveAspectRatio='xMinYMin meet'
 			viewBox='0 0 256 256'
 		>
@@ -370,7 +370,7 @@ export const JSIcon = () => {
 export const NextIcon = () => {
 	return (
 		<svg
-			className='w-14 md:w-16 lg:w-20 xl:w-24 2xl:w-32 h-14 md:h-16 lg:h-20 xl:h-24 2xl:h-32 hover:-translate-y-3 cursor-pointer'
+			className='w-14 md:w-16 lg:w-20 xl:w-24 h-14 md:h-16 lg:h-20 xl:h-24 cursor-pointer'
 			viewBox='0 0 32 32'
 			fill='white'
 		>
@@ -385,7 +385,7 @@ export const NextIcon = () => {
 export const NodeIcon = () => {
 	return (
 		<svg
-			className='w-14 md:w-16 lg:w-20 xl:w-24 2xl:w-32 h-14 md:h-16 lg:h-20 xl:h-24 2xl:h-32 hover:-translate-y-3 cursor-pointer'
+			className='w-14 md:w-16 lg:w-20 xl:w-24 h-14 md:h-16 lg:h-20 xl:h-24 cursor-pointer'
 			viewBox='0 0 32 32'
 		>
 			<g>
@@ -406,7 +406,7 @@ export const NodeIcon = () => {
 export const PostgresIcon = () => {
 	return (
 		<svg
-			className='w-14 md:w-16 lg:w-20 xl:w-24 2xl:w-32 h-14 md:h-16 lg:h-20 xl:h-24 2xl:h-32 hover:-translate-y-3 cursor-pointer'
+			className='w-14 md:w-16 lg:w-20 xl:w-24 h-14 md:h-16 lg:h-20 xl:h-24 cursor-pointer'
 			preserveAspectRatio='xMidYMid'
 			viewBox='-4 0 264 264'
 		>
@@ -433,7 +433,7 @@ export const PostgresIcon = () => {
 export const ReactIcon = () => {
 	return (
 		<svg
-			className='w-14 md:w-16 lg:w-20 xl:w-24 2xl:w-32 h-14 md:h-16 lg:h-20 xl:h-24 2xl:h-32 hover:-translate-y-3 cursor-pointer'
+			className='w-14 md:w-16 lg:w-20 xl:w-24 h-14 md:h-16 lg:h-20 xl:h-24 cursor-pointer'
 			viewBox='0 0 32 32'
 		>
 			<g>
@@ -456,7 +456,7 @@ export const ReactIcon = () => {
 export const TailwindIcon = () => {
 	return (
 		<svg
-			className='w-14 md:w-16 lg:w-20 xl:w-24 2xl:w-32 h-14 md:h-16 lg:h-20 xl:h-24 2xl:h-32 hover:-translate-y-3 cursor-pointer'
+			className='w-14 md:w-16 lg:w-20 xl:w-24 h-14 md:h-16 lg:h-20 xl:h-24 cursor-pointer'
 			viewBox='0 0 32 32'
 		>
 			<g>
@@ -473,7 +473,7 @@ export const TailwindIcon = () => {
 export const TSIcon = () => {
 	return (
 		<svg
-			className='w-14 md:w-16 lg:w-20 xl:w-24 2xl:w-32 h-14 md:h-16 lg:h-20 xl:h-24 2xl:h-32 hover:-translate-y-3 cursor-pointer'
+			className='w-14 md:w-16 lg:w-20 xl:w-24 h-14 md:h-16 lg:h-20 xl:h-24 cursor-pointer'
 			preserveAspectRatio='xMidYMid'
 			viewBox='0 0 256 256'
 		>
@@ -492,7 +492,7 @@ export const TSIcon = () => {
 export const AlgoliaIcon = () => {
 	return (
 		<svg
-			className='w-14 md:w-16 lg:w-20 xl:w-24 2xl:w-32 h-14 md:h-16 lg:h-20 xl:h-24 2xl:h-32 hover:-translate-y-3 cursor-pointer'
+			className='w-14 md:w-16 lg:w-20 xl:w-24 h-14 md:h-16 lg:h-20 xl:h-24 cursor-pointer'
 			viewBox='0 0 1024 1024'
 		>
 			<g>
@@ -517,7 +517,7 @@ export const AlgoliaIcon = () => {
 export const PostmanIcon = () => {
 	return (
 		<svg
-			className='w-14 md:w-16 lg:w-20 xl:w-24 2xl:w-32 h-14 md:h-16 lg:h-20 xl:h-24 2xl:h-32 hover:-translate-y-3 cursor-pointer'
+			className='w-14 md:w-16 lg:w-20 xl:w-24 h-14 md:h-16 lg:h-20 xl:h-24 cursor-pointer'
 			preserveAspectRatio='xMidYMid'
 			viewBox='0 0 256 256'
 		>
@@ -607,7 +607,7 @@ export const PostmanIcon = () => {
 export const WebpackIcon = () => {
 	return (
 		<svg
-			className='w-14 md:w-16 lg:w-20 xl:w-24 2xl:w-32 h-14 md:h-16 lg:h-20 xl:h-24 2xl:h-32 hover:-translate-y-3 cursor-pointer'
+			className='w-14 md:w-16 lg:w-20 xl:w-24 h-14 md:h-16 lg:h-20 xl:h-24 cursor-pointer'
 			viewBox='0 0 32 32'
 		>
 			<g>
@@ -644,7 +644,7 @@ export const WebpackIcon = () => {
 export const ContentfulIcon = () => {
 	return (
 		<svg
-			className='w-14 md:w-16 lg:w-20 xl:w-24 2xl:w-32 h-14 md:h-16 lg:h-20 xl:h-24 2xl:h-32 hover:-translate-y-3 cursor-pointer'
+			className='w-14 md:w-16 lg:w-20 xl:w-24 h-14 md:h-16 lg:h-20 xl:h-24 cursor-pointer'
 			preserveAspectRatio='xMidYMid'
 			viewBox='-16.5 0 289 289'
 		>
@@ -672,7 +672,7 @@ export const ContentfulIcon = () => {
 export const CloudinaryIcon = () => {
 	return (
 		<svg
-			className='w-14 md:w-16 lg:w-20 xl:w-24 2xl:w-32 h-14 md:h-16 lg:h-20 xl:h-24 2xl:h-32 hover:-translate-y-3 cursor-pointer'
+			className='w-14 md:w-16 lg:w-20 xl:w-24 h-14 md:h-16 lg:h-20 xl:h-24 cursor-pointer'
 			preserveAspectRatio='xMidYMid'
 			viewBox='0 -44 256 256'
 		>

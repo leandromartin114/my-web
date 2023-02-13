@@ -5,18 +5,18 @@ export const AboutMe = ({ imgURL }) => {
 	return (
 		<section
 			id='about'
-			className='px-2 py-20 xl:py-28 2xl:py-32 w-full 2xl:h-screen grid gap-7 items-center justify-items-center xl:grid-cols-2'
+			className='px-2 py-20 w-full xl:h-screen grid gap-7 items-center justify-items-center xl:grid-cols-2'
 		>
 			<Image
-				className='hidden sm:block sm:w-72 xl:w-96 2xl:w-[700px] sm:h-72 xl:h-96 2xl:h-[700px] rounded-full border-solid border-cyan-500 border-4 2xl:border-8'
+				className='hidden sm:block sm:w-72 lg:w-96 xl:w-[450px] sm:h-72 lg:h-96 xl:h-[450px] rounded-full border-solid border-cyan-500 border-4 2xl:border-8'
 				width={2500}
 				height={2500}
 				src={imgURL}
 				alt='Leandro'
 			/>
-			<div className='text-center max-w-md md:max-w-lg xl:max-w-4xl 2xl:max-w-5xl grid gap-14'>
+			<div className='text-center max-w-md md:max-w-lg xl:max-w-2xl grid gap-12'>
 				<Large color='text-cyan-300'>About Me</Large>
-				<div className='text-center max-w-md md:max-w-lg xl:max-w-4xl 2xl:max-w-5xl grid gap-8'>
+				<div className='text-center max-w-md md:max-w-lg xl:max-w-2xl grid gap-7'>
 					<Body>
 						I love soccer, video games and Astronomy. Also, I'm a big fan of Red
 						Hot Chili Peppers band. I enjoy traveling across the world, knowing
