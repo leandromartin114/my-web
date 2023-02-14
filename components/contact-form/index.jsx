@@ -15,7 +15,7 @@ export const ContactForm = () => {
 		setShow(true)
 		reset()
 		const dataString = JSON.stringify(data)
-		await fetchLocalAPI(dataString)
+		const res = await fetchLocalAPI(dataString)
 	}
 
 	return (
