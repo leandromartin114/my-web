@@ -13,15 +13,14 @@ export const ContactForm = () => {
 
 	const onSubmit = async (data) => {
 		setShow(true)
-		const dataString = JSON.stringify(data)
-		const res = await fetchLocalAPI(dataString)
-		console.log(res)
 		reset()
+		const dataString = JSON.stringify(data)
+		await fetchLocalAPI(dataString)
 	}
 
 	return (
 		<form
-			className='w-64 md:w-80 xl:w-[450px] px-3 md:px-4 py-4 md:py-5 grid gap-4 md:gap-5 items-center justify-items-center bg-orange-100 border-solid border-orange-600 border-4 2xl:border-8 rounded-xl'
+			className='w-64 md:w-80 xl:w-[450px] px-3 md:px-4 py-4 md:py-8 grid gap-4 md:gap-5 items-center justify-items-center bg-orange-100 border-solid border-orange-600 border-4 2xl:border-8 rounded-xl'
 			onSubmit={handleSubmit(onSubmit)}
 		>
 			<label className='text-start w-full grid gap-1'>
