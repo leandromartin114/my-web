@@ -25,9 +25,7 @@ export const ContactForm = () => {
 			onSubmit={handleSubmit(onSubmit)}
 		>
 			<label className='text-start w-full grid gap-1'>
-				<h4 className='text-sm md:text-base xl:text-2xl font-bold'>
-					Your name
-				</h4>
+				<h4 className='text-sm md:text-base xl:text-2xl font-bold'>name</h4>
 				<input
 					className='py-1 px-2 text-base md:text-lg xl:text-3xl rounded-lg'
 					type='text'
@@ -41,9 +39,7 @@ export const ContactForm = () => {
 			)}
 
 			<label className='text-start w-full grid gap-1'>
-				<h4 className='text-sm md:text-base xl:text-2xl font-bold'>
-					Your email
-				</h4>
+				<h4 className='text-sm md:text-base xl:text-2xl font-bold'>email</h4>
 				<input
 					className='py-1 px-2 text-base md:text-lg xl:text-3xl rounded-lg'
 					type='email'
@@ -58,7 +54,7 @@ export const ContactForm = () => {
 
 			<label className='text-start w-full grid gap-1'>
 				<h4 className='text-sm md:text-base xl:text-2xl font-bold'>
-					Your phone number
+					phone number
 				</h4>
 				<input
 					className='py-1 px-2 text-base md:text-lg xl:text-3xl rounded-lg'
@@ -68,7 +64,7 @@ export const ContactForm = () => {
 			</label>
 
 			<label className='text-start w-full grid gap-1'>
-				<h4 className='text-sm md:text-base xl:text-2xl font-bold'>Message</h4>
+				<h4 className='text-sm md:text-base xl:text-2xl font-bold'>message</h4>
 				<textarea
 					className='h-36 md:h-40 py-1 px-2 text-base md:text-lg xl:text-3xl rounded-lg'
 					{...register('message', { required: true })}

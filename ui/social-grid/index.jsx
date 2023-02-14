@@ -11,7 +11,7 @@ export const SocialGrid = () => {
 	}
 	return (
 		<div className='bg-orange-200 border-solid border-orange-600 border-4 2xl:border-8 rounded-full'>
-			<ul className='relative w-[240px] h-[240px] sm:w-[300px] sm:h-[300px] md:w-[370px] md:h-[370px] xl:w-[430px] xl:h-[430px] grid grid-cols-2 items-center justify-items-center p-6 sm:p-8 md:p-10 xl:p-12 gap-1'>
+			<ul className='relative w-[220px] h-[220px] sm:w-[270px] sm:h-[270px] md:w-[320px] md:h-[320px] xl:w-[430px] xl:h-[430px] grid grid-cols-2 items-center justify-items-center p-8 sm:p-10 md:p-12 xl:p-14 gap-1'>
 				<li>
 					<a
 						href='https://github.com/leandromartin114'
