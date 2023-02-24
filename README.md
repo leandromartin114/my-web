@@ -1,8 +1,8 @@
-## Welcome to my web
+# Welcome to my web
 
 [Visit](https://learoldan.vercel.app)
 
-### Technologies in this project
+## Technologies in this project
 
 - React.js
 - Next.js
